@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind utilities;
+@tailwind components;
+
+body {
+  font-family: "Inter", sans-serif;
+}
+.day-style {
+  @apply text-zinc-400 text-xl h-10 w-10 flex items-center justify-center font-bold;
+}
